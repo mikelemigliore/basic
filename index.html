@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    </head>
+    <nav>
+        <h1 id="name">Michele Migliore</h1>
+        <ul>
+            <li>About Me</li>
+            <li>Projects</li>
+            <li>Skills</li>
+            <li>Contacts</li>
+        </ul>
+    </nav>
+    <body>
+        <img src="./src/Hulk.jpg" width="350" height="333">
+        <h2>About Me</h2>
+        <p>Hello, my name is Michele Migliore and I am trying to learn how to code. 
+           It is not easy due to the current changes in the world with this new technology rising, so 
+           it is definaly a time of uncertanty, but I still want to learn an find my place in this world
+           and make my dreams come true. Anyways, I am eager that you are her and i am listed all my accomplisments
+           below along with my ultimate future goal, Alumnea! Thank you to be here.
+        </p>
+        <section>
+            <h1 class="counter-display">(..)</h1>
+            <button class="counter-minus">-</button>
+            <button class="counter-plus">+</button>
+        </section>
+        <h2>Projects</h2>
+        <ul>
+            <details>
+                <summary>My first project</summary>
+                <img src="./src/first_project.png" width="500" height="333" id="projects">
+                <p>oksocvksomcocaerfehrfieubfribebaifbui</p>
+            </details>
+            <details>
+                <summary>My second project</summary>
+                <img src="./src/second_project.png" width="500" height="333" id="projects">
+            </details>
+            <details>
+                <summary>My third project</summary>
+                <img src="./src/third_projects.png" width="500" height="333" id="projects">
+            </details>
+            <details>
+                <summary>My final goal</summary>
+                <img src="./src/LUMNEA.png" width="500" height="333" id="projects">
+            </details>
+        </ul>
+        <h2>Skills</h2>
+        <ul id="icons">
+            <li><i class="fa-brands fa-css3-alt"></i></li>
+            <li><i class="fa-brands fa-html5"></i></li>
+            <li><i class="fa-brands fa-js"></i></li>
+            <li><i class="fa-brands fa-github"></i></li>
+            <li><i class="fa-brands fa-figma"></i></li>
+        </ul>
+        <section id="main">
+            <h3>Leave a comment!</h3>
+            <form action ="/index.html" method="GET">
+                <label for="comment">Don't be shy:</label>
+                <br>
+                <textarea id="comment" name="comment" rows="8" cols="40" required></textarea>
+                <br>
+                <input type="submit" value="See you!" id="submit">
+            </form>
+        </section>
+
+        <script src="./script.js"></script>
+    </body>
+</html>
